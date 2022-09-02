@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF52B08E28C23992008C667B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52B08D28C23992008C667B /* SplashScreenView.swift */; };
+		CF52B09028C24386008C667B /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52B08F28C24386008C667B /* Grid.swift */; };
+		CF6B5B0728BFD6C90044DBF2 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B5B0628BFD6C90044DBF2 /* GridLayout.swift */; };
 		CFF352CB28B4387100D90755 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF352CA28B4387100D90755 /* MemorizeApp.swift */; };
 		CFF352CD28B4387100D90755 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF352CC28B4387100D90755 /* EmojiMemoryGameView.swift */; };
 		CFF352CF28B4387500D90755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF352CE28B4387500D90755 /* Assets.xcassets */; };
 		CFF352D228B4387500D90755 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF352D128B4387500D90755 /* Preview Assets.xcassets */; };
 		CFF352D928B5591500D90755 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF352D828B5591500D90755 /* MemoryGame.swift */; };
 		CFF352DB28B5641700D90755 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF352DA28B5641700D90755 /* EmojiMemoryGame.swift */; };
+		D74281AC58B25D63B2E6A251 /* Pods_Memorize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7316F8FDE24D57D2684D9DAF /* Pods_Memorize.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03408CE1D23FA7EB1B1A6ABD /* Pods-Memorize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memorize.release.xcconfig"; path = "Target Support Files/Pods-Memorize/Pods-Memorize.release.xcconfig"; sourceTree = "<group>"; };
+		1649FB01695CA04F706B780E /* Pods-Memorize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memorize.debug.xcconfig"; path = "Target Support Files/Pods-Memorize/Pods-Memorize.debug.xcconfig"; sourceTree = "<group>"; };
+		7316F8FDE24D57D2684D9DAF /* Pods_Memorize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memorize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF52B08D28C23992008C667B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		CF52B08F28C24386008C667B /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		CF6B5B0628BFD6C90044DBF2 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		CFF352C728B4387100D90755 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF352CA28B4387100D90755 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		CFF352CC28B4387100D90755 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -30,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74281AC58B25D63B2E6A251 /* Pods_Memorize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6D513FB922E286B419BC2BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1649FB01695CA04F706B780E /* Pods-Memorize.debug.xcconfig */,
+				03408CE1D23FA7EB1B1A6ABD /* Pods-Memorize.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CFF352BE28B4387100D90755 = {
 			isa = PBXGroup;
 			children = (
 				CFF352C928B4387100D90755 /* Memorize */,
 				CFF352C828B4387100D90755 /* Products */,
+				C6D513FB922E286B419BC2BD /* Pods */,
+				E8F2309D8B49B191F0BC10E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +77,9 @@
 		CFF352C928B4387100D90755 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				CF52B08F28C24386008C667B /* Grid.swift */,
+				CF52B08D28C23992008C667B /* SplashScreenView.swift */,
+				CF6B5B0628BFD6C90044DBF2 /* GridLayout.swift */,
 				CFF352CA28B4387100D90755 /* MemorizeApp.swift */,
 				CFF352CC28B4387100D90755 /* EmojiMemoryGameView.swift */,
 				CFF352D828B5591500D90755 /* MemoryGame.swift */,
@@ -73,6 +98,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E8F2309D8B49B191F0BC10E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7316F8FDE24D57D2684D9DAF /* Pods_Memorize.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF352D528B4387500D90755 /* Build configuration list for PBXNativeTarget "Memorize" */;
 			buildPhases = (
+				7D98F855A35647B19832C6BA /* [CP] Check Pods Manifest.lock */,
 				CFF352C328B4387100D90755 /* Sources */,
 				CFF352C428B4387100D90755 /* Frameworks */,
 				CFF352C528B4387100D90755 /* Resources */,
+				96912C938F92D26AF9CAE4E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,14 +173,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D98F855A35647B19832C6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memorize-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96912C938F92D26AF9CAE4E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memorize/Pods-Memorize-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memorize/Pods-Memorize-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memorize/Pods-Memorize-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFF352C328B4387100D90755 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF52B08E28C23992008C667B /* SplashScreenView.swift in Sources */,
 				CFF352D928B5591500D90755 /* MemoryGame.swift in Sources */,
 				CFF352CD28B4387100D90755 /* EmojiMemoryGameView.swift in Sources */,
 				CFF352CB28B4387100D90755 /* MemorizeApp.swift in Sources */,
+				CF6B5B0728BFD6C90044DBF2 /* GridLayout.swift in Sources */,
+				CF52B09028C24386008C667B /* Grid.swift in Sources */,
 				CFF352DB28B5641700D90755 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +349,7 @@
 		};
 		CFF352D628B4387500D90755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1649FB01695CA04F706B780E /* Pods-Memorize.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -281,6 +362,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,6 +381,7 @@
 		};
 		CFF352D728B4387500D90755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03408CE1D23FA7EB1B1A6ABD /* Pods-Memorize.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +394,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
